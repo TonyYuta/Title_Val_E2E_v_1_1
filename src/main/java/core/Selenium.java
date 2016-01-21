@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Selenium {
 	public String[][] a2d() throws IOException {
-		String csvFile = "./src/main/resources/Title_val.csv";
+		String csvFile = "./src/main/resources/Title_Val.csv";
 		BufferedReader br = null;
 		String line = null;
 		String[] column = null;
@@ -53,10 +53,10 @@ public class Selenium {
 		
 		driver.quit();
 		br.close();
-		return s2d;
-		
+		return s2d;	
 	}
 	
+	// temporaty, not for real project
     public static void main(String[] args) throws IOException {
        core.Selenium selenuim = new core.Selenium();
        selenuim.a2d();
