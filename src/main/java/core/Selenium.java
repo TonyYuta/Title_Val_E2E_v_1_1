@@ -55,7 +55,9 @@ public class Selenium {
 		br.close();
 		return s2d;	
 	}
-	public static void main(String[] args) {
-		
-	}
+public static void main(String[] args) throws IOException {
+        core.Selenium selenuim = new core.Selenium();
+        selenuim.a2d();
+ }
+
 }
