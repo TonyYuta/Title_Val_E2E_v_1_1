@@ -55,10 +55,4 @@ public class Selenium {
 		br.close();
 		return s2d;	
 	}
-	
-	// temporaty, not for real project
-    public static void main(String[] args) throws IOException {
-       core.Selenium selenuim = new core.Selenium();
-       selenuim.a2d();
-    }
 }
