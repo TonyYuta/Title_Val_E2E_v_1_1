@@ -55,4 +55,7 @@ public class Selenium {
 		br.close();
 		return s2d;	
 	}
+	public static void main(String[] args) {
+		
+	}
 }
