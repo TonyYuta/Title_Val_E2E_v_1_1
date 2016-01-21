@@ -25,10 +25,7 @@ import org.junit.runners.Suite.SuiteClasses;
  *
  */
 @RunWith(Suite.class)
-@SuiteClasses({ 
-	SeleniumTest_001.class, 
-	SeleniumTest_002.class, 
-	SeleniumTest_003.class 
-	})
+@SuiteClasses({ SeleniumTest.class })
 public class AllTests {
+
 }

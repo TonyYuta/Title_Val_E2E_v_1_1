@@ -15,7 +15,7 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
  
 @RunWith(Parameterized.class)
-public class SeleniumTest_003 {
+public class SeleniumTest {
  
        @BeforeClass
        public static void BeforeClass01() throws Exception  {
@@ -25,7 +25,7 @@ public class SeleniumTest_003 {
        @Parameters(name = "Iteration # {index} : exp: {1}; act: {2}")
 
        public static Collection<String[]> data() throws IOException {
-              core.Selenium_003 selenuim = new core.Selenium_003();
+              core.Selenium selenuim = new core.Selenium();
               return Arrays.asList(selenuim.a2d());
        }
  

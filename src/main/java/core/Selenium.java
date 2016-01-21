@@ -8,9 +8,9 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Selenium_003 {
+public class Selenium {
 	public String[][] a2d() throws IOException {
-		String csvFile = "./src/main/resources/Title_Val_003.csv";
+		String csvFile = "./src/main/resources/Title_Val.csv";
 		BufferedReader br = null;
 		String line = null;
 		String[] column = null;
